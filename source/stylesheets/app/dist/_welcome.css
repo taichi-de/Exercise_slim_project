@@ -1,0 +1,5 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .welcome_img .btn-text-primary {
+    margin-top: 40%;
+  }
+}

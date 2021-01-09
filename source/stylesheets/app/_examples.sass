@@ -1,0 +1,58 @@
+.row.py-5.my-md-5.align-items-center
+  padding: 0 5rem
+  width: 100%
+  .col-12.text-center
+    h1 
+      font-size: 7rem
+      font-weight: 700
+      line-height: 1.5
+      color: $light-green
+      margin-bottom: 15rem
+      .click 
+        color: $primary
+    .d-flex.align-items-center.justify-content-around
+      .carousel-indicators
+        bottom: -7%
+        li
+          border-color: $primary
+        .active
+          background-color: $primary
+      .carousel.slide
+        .carousel-inner
+          width: 90%
+          margin: 3rem auto
+          .carousel-item
+            .card-img
+              margin-bottom: 2rem
+            .btn-ansehen
+              @include btn-ansehen
+              a
+                margin: 4rem
+          .carousel-item.active
+            padding-bottom: 1rem
+        .carousel-control-prev.carousel-control-next
+          margin-top: 2rem
+
+  @media (max-width: $break-md) 
+    margin: 0
+    padding: 0 2rem
+    .col-12.text-center
+      margin: 0
+      padding: 0
+      h1 
+        font-size: 3rem
+        margin: 0
+      .d-flex.align-items-center.justify-content-around
+        .carousel-item
+          .btn-ansehen
+            margin-top: 3rem
+
+  @media (max-width: $break-sm) 
+    margin: 0
+    padding: 0 1rem
+    .col-12.text-center
+      h1 
+        font-size: 1.6rem
+      .d-flex.align-items-center.justify-content-around
+        .btn-ansehen
+          margin-top: 1rem

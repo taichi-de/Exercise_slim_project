@@ -1,0 +1,74 @@
+.contact
+  background: rgba(91, 214, 176, 0.72)
+  padding: 2rem 8rem 8rem
+  .col-12.text-center
+    color: #fff
+    h3 
+      font-size: 8rem
+      font-weight: 300
+      margin-bottom: 6rem
+    form 
+      width: 50%
+      .form-group
+        input.form-control
+          font-size: 1.8rem
+          height: 2.5em
+        textarea.form-control
+          height: 25rem
+      .contact-btn
+        @include btn-ansehen
+        background: $primary
+        color: #fff
+        font-size: 2.4rem 
+        font-weight: 300
+        width: 14rem
+        margin-top: 4rem
+        border: 0px
+        border-radius: 2px 
+    p 
+      font-size: 4rem
+      font-weight: 300
+      margin: 4rem 0
+    .btn-demo
+      @include btn-demo  
+
+  @media (max-width: $break-md) 
+    padding: 1rem 4rem 4rem
+    .col-12.text-center
+      h3 
+        font-size: 3rem
+        margin-bottom: 4rem
+      form 
+        width: 60%
+        .form-group
+          input.form-control
+            font-size: 1.5rem
+            height: 2em
+          textarea.form-control
+            height: 12rem
+        .contact-btn
+          font-size: 1.3rem
+          width: 8rem
+          margin-top: 1rem
+      p 
+        font-size: 2rem
+        margin: 2rem 0
+
+  @media (max-width: $break-sm) 
+    padding: .5rem 2rem 2rem
+    .col-12.text-center
+      h3 
+        font-size: 1.6rem
+        margin-bottom: 2rem
+      form 
+        width: 70%
+        .form-group
+          input.form-control
+            font-size: .6rem
+          textarea.form-control
+            height: 8rem
+        .contact-btn
+          font-size: 1rem
+      p 
+        font-size: 1.2rem
+        margin: 1.3rem 0

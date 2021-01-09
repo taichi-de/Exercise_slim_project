@@ -1,0 +1,31 @@
+@mixin btn-demo
+  background-color: #fff
+  color: $dark-gray
+  font-size: 2.8rem
+  width: 45rem
+  height: 7rem
+  border: 0px
+  border-radius: 5px
+  padding: .5rem
+  @media (max-width: $break-md)
+    font-size: 1.6rem
+    width: auto
+    height: auto
+  @media (max-width: $break-sm) 
+    font-size: 1.1rem
+    border-radius: 2px
+
+@mixin btn-ansehen
+  a
+    background: $light-green
+    color: #fff
+    font-size: 1.8rem
+    width: 18rem
+    border: 0px
+    border-radius: 5px
+    padding: .5rem
+    text-decoration-style: none
+  @media (max-width: $break-md) 
+    width: auto
+    a
+      font-size: 1.4rem

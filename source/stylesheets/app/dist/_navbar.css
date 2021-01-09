@@ -1,0 +1,17 @@
+nav.clicktopus-navbar.navbar-expand {
+  justify-content: flex-end;
+  margin: 0px;
+  padding-right: 5rem;
+  height: 60px;
+}
+nav.clicktopus-navbar.navbar-expand .logo-navi-img {
+  width: 143px;
+  height: 56px;
+}
+nav.clicktopus-navbar.navbar-expand ul.navbar-nav .nav-item {
+  padding: 20px 30px;
+}
+nav.clicktopus-navbar.navbar-expand ul.navbar-nav .nav-item .active {
+  background: #E5E9F2;
+  height: 60px;
+}

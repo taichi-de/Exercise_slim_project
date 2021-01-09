@@ -1,0 +1,47 @@
+.features.text-left
+  color: $primary
+  padding: 0 7rem
+  h1
+    color: $light-green
+    font-size: 7rem
+    font-weight: 700
+    margin-top: 15rem
+  p
+    font-size: 3.5rem
+    margin: 5rem 0
+  ul 
+    li 
+      font-size: 3.5rem
+      margin: 2rem 0
+      list-style: none
+      overflow-wrap: break-word
+      &::before
+        content: "○"
+        font-size: 1em
+        margin-right: .5rem
+  @media (max-width: $break-md) 
+    padding: 0 4rem
+    h1
+      font-size: 4rem
+      margin-top: 8rem
+    p
+      font-size: 2rem
+      margin: 3.5rem 0
+    ul 
+      margin: 0
+      padding: 0
+      li 
+        font-size: 1.3rem
+        margin: .5rem 0
+        padding: 0
+  @media (max-width: $break-sm) 
+    padding: 0 1.5rem
+    h1
+      font-size: 2rem
+      margin-top: 3rem
+    p
+      font-size: 1.1rem
+      margin: 2rem 0
+    ul 
+      li 
+        font-size: 1rem

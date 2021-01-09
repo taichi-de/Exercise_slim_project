@@ -1,0 +1,9 @@
+.row.fixing .col-12.text-left h1 {
+  font-size: 70px;
+  margin: 0 0 100px;
+  line-height: 1.2;
+}
+.row.fixing .col-12.text-left p {
+  font-size: 35px;
+  margin: 40px 0;
+}

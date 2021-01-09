@@ -1,0 +1,24 @@
+.row.call-to-action.align-items-center {
+  background-color: rgba(91, 214, 176, 0.53);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 100px 0;
+  padding: 50px;
+}
+.row.call-to-action.align-items-center h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.row.call-to-action.align-items-center h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 50px 0;
+}
+.row.call-to-action.align-items-center .mx-auto {
+  background-color: #fff;
+  color: #343F4B;
+  font-size: 28px;
+  width: 450px;
+  text-decoration: none;
+}
