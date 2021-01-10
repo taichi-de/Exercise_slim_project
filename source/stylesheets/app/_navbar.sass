@@ -5,7 +5,7 @@
     left: 0
     width: 100%
     z-index: 15
-    background: #fff
+    background: $dark-blue
     margin: 0
     padding: 0 3rem
     height: 60px
@@ -13,22 +13,22 @@
     -moz-box-shadow: 0 6px 6px -6px rgba(71,82,94, 0.4)
     box-shadow: 0 6px 6px -6px rgba(71,82,94, 0.4)
     .logo-navi-img
-      width: 14.3rem
+      width: 10rem
     nav.clicktopus-navbar.navbar.navbar-expand-md.navbar-light.d-flex.bd-highlight.mb-3
       #responsiveMenu
         ul.navbar-nav
-          .nav-item 
+          .nav-item
             padding: 2.5rem 3rem
             a
-              color: $primary
+              color: $light-gray
             &:hover,&:focus
-              background: #E5E9F2 
-          .active 
-            background: #E5E9F2 
+              background: #E5E9F2
+          .active
+            background: #E5E9F2
     .navbar-toggler
       display: none
 
-    @media (max-width: $break-md) 
+    @media (max-width: $break-md)
       padding: 0 1rem
       height: 2.5rem
       min-height: 2.5rem
@@ -47,18 +47,18 @@
           ul.navbar-nav
             flex-direction: column
             padding: 0 auto
-            .nav-item 
+            .nav-item
               margin: 0 auto
               width: 100%
               a
-                color: #ffffff
+                color: $light-gray
                 font-size: 2.3rem
-              @media (max-width: $break-sm) 
+              @media (max-width: $break-sm)
                 padding: 1.5rem 2rem
                 a
                   font-size: 1.3rem
       .navbar-toggler
-        display: block 
+        display: block
         cursor: pointer
         border-style: none
         z-index: 10001

@@ -1,11 +1,11 @@
 .call-to-action.align-items-center
-  background-color: rgba(91, 214, 176, 0.53)
+  background-color: rgba(189,72,254,0.53)
   background-size: cover
   background-attachment: fixed
   width: 100%
   margin: 10rem 0 0
   padding: 5rem
-  h1 
+  h1
     color: #fff
     font-size: 5rem
   h2
@@ -14,23 +14,34 @@
     margin: 5rem 0
     color: $primary
   .btn-demo a
-    width: 45rem
-    margin-top: 3rem
-    @include btn-demo
+    background-color: $light-gray
+    color: $dark-gray
+    width: 15em
+    height: auto
+    font-size: 2rem
+    margin-top: 1em
+    border: 0px
+    border-radius: 5px
+    padding: 1rem
+    @media (max-width: $break-md)
+      font-size: 1.6rem
+      width: auto
+      height: auto
+    @media (max-width: $break-sm)
+      font-size: 1.1rem
+
   @media (max-width: $break-md)
-    margin: 5rem 0 
+    margin: 5rem 0
     padding: 2.5rem
-    h1 
+    h1
       font-size: 2.5rem
       margin: 0
     h2
       font-size: 2rem
       margin: 2.5rem 0
-    .btn-demo a
-      margin-top: 0
-  @media (max-width: $break-sm) 
+  @media (max-width: $break-sm)
     padding: 2rem
-    h1 
+    h1
       font-size: 1.3rem
     h2
       font-size: 1.1rem
