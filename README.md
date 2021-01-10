@@ -1,4 +1,5 @@
-Responsive Esp website (landing page) made with [middlemanapp](https://middlemanapp.com)
+レスポンシブ対応のデモサイトを [middlemanapp](https://middlemanapp.com)　で作成。
+（Middleman と Slimを初めて使用）
 
 # Dependencies:
 
@@ -19,19 +20,3 @@ Responsive Esp website (landing page) made with [middlemanapp](https://middleman
   - desktop: http://localhost:4567
 
   - mobile: http://your-ip-address:4567
-
-# Development Tips
-
-- Please only make changes to the `source` and `locales` folder
-
-- Live reload is enabled. So whenever you make changes in the code editor, the browser automatically refreshes itself
-
-- Texts & links belong in the YAML file in the locales folder
-
-The SASS stylesheets in the `app` folder need to begin with an underscore for the build to work
-
-# Build
-
-- Execute `middleman build` to create static files in the build folder
-
-- For troubleshooting, try `middleman build --verbose` to see error messages
