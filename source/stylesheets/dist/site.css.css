@@ -147,7 +147,7 @@ html {
 
 .welcome {
   min-height: 75vh;
-  background-image: url("../images/header_clicktopus.jpg");
+  background-image: url("../images/bg-hero.jpg");
   background-size: cover;
   margin: 0;
   position: relative;
@@ -236,7 +236,7 @@ html {
 .website-cms.text-left .d-flex.bd-highlight.mb-3 .mr-auto.p-2.bd-highlight .txt-green {
   color: #5BD6B0;
 }
-.website-cms.text-left .d-flex.bd-highlight.mb-3 .img-circles.p-2.bd-highlight {
+.website-cms.text-left .d-flex.bd-highlight.mb-3 .p-2.bd-highlight {
   width: 30rem;
   margin-right: 20%;
 }
@@ -260,7 +260,7 @@ html {
   .website-cms.text-left .d-flex.bd-highlight.mb-3 .mr-auto.p-2.bd-highlight .border-bottom-websitecms {
     padding-bottom: 1rem;
   }
-  .website-cms.text-left .d-flex.bd-highlight.mb-3 .img-circles.p-2.bd-highlight {
+  .website-cms.text-left .d-flex.bd-highlight.mb-3 .p-2.bd-highlight {
     width: 25%;
     margin-right: 5%;
   }
@@ -710,7 +710,7 @@ html {
   margin-top: 15rem;
   padding: 0;
   color: #47525E;
-  background-image: url("../images/bg-company.jpg");
+  background-image: url("../images/bg-cms.jpg");
   background-size: cover;
   width: 100%;
   min-height: 100vh;

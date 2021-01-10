@@ -1,13 +1,13 @@
 .contact
-  background: rgba(91, 214, 176, 0.72)
+  background: rgba(211,211,211,0.7)
   padding: 2rem 8rem 8rem
   .col-12.text-center
-    color: #fff
-    h3 
+    color: $dark-blue
+    h3
       font-size: 8rem
       font-weight: 300
       margin-bottom: 6rem
-    form 
+    form
       width: 50%
       .form-group
         input.form-control
@@ -16,29 +16,48 @@
         textarea.form-control
           height: 25rem
       .contact-btn
-        @include btn-ansehen
-        background: $primary
+        background: $light-blue
         color: #fff
-        font-size: 2.4rem 
+        font-size: 2rem
         font-weight: 300
-        width: 14rem
-        margin-top: 4rem
+        width: 9em
         border: 0px
-        border-radius: 2px 
-    p 
+        border-radius: 5px
+        margin-top: 1.2em
+        padding: .5rem
+        text-decoration-style: none
+        @media (max-width: $break-md)
+          width: auto
+          a
+            font-size: 1.4rem
+    p
       font-size: 4rem
       font-weight: 300
       margin: 4rem 0
     .btn-demo
-      @include btn-demo  
+      background-color: $light-gray
+      color: $dark-gray
+      font-size: 2rem
+      width: 12em
+      height: auto
+      border: 0px
+      border-radius: 5px
+      padding: .5rem
+      @media (max-width: $break-md)
+        font-size: 1.6rem
+        width: auto
+        height: auto
+      @media (max-width: $break-sm)
+        font-size: 1.1rem
+        border-radius: 2px
 
-  @media (max-width: $break-md) 
+  @media (max-width: $break-md)
     padding: 1rem 4rem 4rem
     .col-12.text-center
-      h3 
+      h3
         font-size: 3rem
         margin-bottom: 4rem
-      form 
+      form
         width: 60%
         .form-group
           input.form-control
@@ -50,17 +69,17 @@
           font-size: 1.3rem
           width: 8rem
           margin-top: 1rem
-      p 
+      p
         font-size: 2rem
         margin: 2rem 0
 
-  @media (max-width: $break-sm) 
+  @media (max-width: $break-sm)
     padding: .5rem 2rem 2rem
     .col-12.text-center
-      h3 
+      h3
         font-size: 1.6rem
         margin-bottom: 2rem
-      form 
+      form
         width: 70%
         .form-group
           input.form-control
@@ -69,6 +88,6 @@
             height: 8rem
         .contact-btn
           font-size: 1rem
-      p 
+      p
         font-size: 1.2rem
         margin: 1.3rem 0

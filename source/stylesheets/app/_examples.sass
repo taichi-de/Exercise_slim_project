@@ -2,13 +2,13 @@
   padding: 0 5rem
   width: 100%
   .col-12.text-center
-    h1 
+    h1
       font-size: 7rem
       font-weight: 700
       line-height: 1.5
-      color: $light-green
+      color: $light-blue
       margin-bottom: 15rem
-      .click 
+      .click
         color: $primary
     .d-flex.align-items-center.justify-content-around
       .carousel-indicators
@@ -24,22 +24,34 @@
           .carousel-item
             .card-img
               margin-bottom: 2rem
+              box-shadow: 1px 6px 6px -6px rgba(71,82,94, 0.7)
             .btn-ansehen
-              @include btn-ansehen
               a
+                background: $light-blue
+                color: #fff
+                font-size: 1.8rem
+                width: 20rem
+                border: 0px
+                border-radius: 5px
                 margin: 4rem
+                padding: .5rem
+                text-decoration-style: none
+              @media (max-width: $break-md)
+                width: auto
+                a
+                  font-size: 1.4rem
           .carousel-item.active
             padding-bottom: 1rem
         .carousel-control-prev.carousel-control-next
           margin-top: 2rem
 
-  @media (max-width: $break-md) 
+  @media (max-width: $break-md)
     margin: 0
     padding: 0 2rem
     .col-12.text-center
       margin: 0
       padding: 0
-      h1 
+      h1
         font-size: 3rem
         margin: 0
       .d-flex.align-items-center.justify-content-around
@@ -47,11 +59,11 @@
           .btn-ansehen
             margin-top: 3rem
 
-  @media (max-width: $break-sm) 
+  @media (max-width: $break-sm)
     margin: 0
     padding: 0 1rem
     .col-12.text-center
-      h1 
+      h1
         font-size: 1.6rem
       .d-flex.align-items-center.justify-content-around
         .btn-ansehen
