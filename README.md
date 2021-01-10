@@ -35,5 +35,3 @@ The SASS stylesheets in the `app` folder need to begin with an underscore for th
 - Execute `middleman build` to create static files in the build folder
 
 - For troubleshooting, try `middleman build --verbose` to see error messages
-
-# Exercise_slim_project
